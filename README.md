@@ -25,5 +25,5 @@ New object clone syntax, with defined properties
 ``` javascript
 import { someObject } from 'some-module'
 
-addThingToDOM('div', [someObject]{a, b, d}) // Spreading out a new object, which is a copy of someObject, but only with properties a, b, and d
+addThingToDOM('div', [someObject]{a, b, d}) // Use a new object, which is a copy of someObject, but only with properties a, b, and d
 ```
